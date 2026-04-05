@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.pt
+*.onnx
+*.engine
+data/*.mp4
+!data/.gitkeep
+outputs/
+runs/
+*.mp4
+!docs/**/*.mp4

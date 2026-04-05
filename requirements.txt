@@ -1,0 +1,9 @@
+# Core detection + tracking (YOLO + ByteTrack/BoT-SORT via Ultralytics)
+ultralytics>=8.3.0,<9
+
+# Video I/O and utilities
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Optional: download public videos (YouTube, etc.)
+# yt-dlp>=2024.1.0
