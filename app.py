@@ -7,7 +7,7 @@ st.write("Demo of sports/event multi-object tracking project.")
 st.subheader("Project Links")
 st.markdown("[GitHub Repository](https://github.com/CHIDARISAIKRISHNA/Predusk-Assignment)")
 st.subheader("Output Video")
-video_file = open("outputs/Output_Video.mp4", "rb")
+video_file = open("outputs/Output_Video_web.mp4", "rb")
 video_bytes = video_file.read()
 st.video(video_bytes)
 
@@ -25,3 +25,9 @@ for img in [
     "outputs/screenshots/frame_005_idx628.jpg",
 ]:
     st.image(img, use_container_width=True)
+
+    st.markdown("---")
+st.markdown(
+    "<div style='text-align: center; font-size: 16px;'>This project was created by <b>Chidari Sai Krishna</b></div>",
+    unsafe_allow_html=True
+)
